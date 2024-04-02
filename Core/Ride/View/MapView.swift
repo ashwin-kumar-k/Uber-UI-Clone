@@ -149,7 +149,7 @@ struct MapView: View {
 // Extension to provide default user location.
 extension CLLocationCoordinate2D {
     static var userLocation: CLLocationCoordinate2D {
-        return CLLocationCoordinate2D(latitude: 12.940793, longitude: 77.552837) // Default user location coordinates.
+        return CLLocationCoordinate2D(latitude: 12.97194, longitude: 77.59369) // Default user location coordinates.
     }
 }
 
