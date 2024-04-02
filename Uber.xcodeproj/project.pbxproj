@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A514CD382B7DEB4300224B79 /* TextFieldState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A514CD372B7DEB4300224B79 /* TextFieldState.swift */; };
+		A54431D02B7F343B00425F20 /* searchPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54431CF2B7F343B00425F20 /* searchPlace.swift */; };
+		A54431D22B7F557D00425F20 /* DriverDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54431D12B7F557D00425F20 /* DriverDetailsView.swift */; };
+		A54431D42B7F68B900425F20 /* BookingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54431D32B7F68B900425F20 /* BookingState.swift */; };
+		A54431D62B7F73AE00425F20 /* WaitingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54431D52B7F73AE00425F20 /* WaitingView.swift */; };
+		A586A0F72B7E8745001036FB /* savedLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A586A0F62B7E8745001036FB /* savedLocations.swift */; };
+		A586AC002B7E08D000664592 /* RideRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A586ABFF2B7E08D000664592 /* RideRequestView.swift */; };
+		A586AC022B7E37B000664592 /* RideType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A586AC012B7E37B000664592 /* RideType.swift */; };
+		A5ABBC322B7C884A005C33C3 /* UberApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ABBC312B7C884A005C33C3 /* UberApp.swift */; };
+		A5ABBC342B7C884A005C33C3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ABBC332B7C884A005C33C3 /* HomeView.swift */; };
+		A5ABBC362B7C884C005C33C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5ABBC352B7C884C005C33C3 /* Assets.xcassets */; };
+		A5ABBC392B7C884C005C33C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5ABBC382B7C884C005C33C3 /* Preview Assets.xcassets */; };
+		A5ABBC4B2B7C94CB005C33C3 /* UberMove-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5ABBC4A2B7C94CB005C33C3 /* UberMove-Bold.ttf */; };
+		A5ABBC4D2B7C94DD005C33C3 /* UberMove-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5ABBC4C2B7C94DD005C33C3 /* UberMove-Light.ttf */; };
+		A5ABBC4F2B7C94F0005C33C3 /* UberMove-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5ABBC4E2B7C94F0005C33C3 /* UberMove-Medium.ttf */; };
+		A5ABBC512B7C9504005C33C3 /* UberMove-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5ABBC502B7C9504005C33C3 /* UberMove-Regular.ttf */; };
+		A5ABBC532B7CB52A005C33C3 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ABBC522B7CB52A005C33C3 /* MainTabBar.swift */; };
+		A5ABBC572B7CCF1D005C33C3 /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ABBC562B7CCF1D005C33C3 /* ServicesView.swift */; };
+		A5ABBC592B7CD41A005C33C3 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ABBC582B7CD41A005C33C3 /* Cards.swift */; };
+		A5ABBC5B2B7CE0C6005C33C3 /* LocationInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ABBC5A2B7CE0C6005C33C3 /* LocationInputView.swift */; };
+		A5ABBC5D2B7CE155005C33C3 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ABBC5C2B7CE155005C33C3 /* ActivityView.swift */; };
+		A5ABBC5F2B7CEB10005C33C3 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ABBC5E2B7CEB10005C33C3 /* AccountView.swift */; };
+		A5ABBC702B7D2BB9005C33C3 /* LocationSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ABBC6F2B7D2BB9005C33C3 /* LocationSearchViewModel.swift */; };
+		A5ABBC732B7D33EB005C33C3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ABBC722B7D33EB005C33C3 /* MapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A514CD372B7DEB4300224B79 /* TextFieldState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldState.swift; sourceTree = "<group>"; };
+		A54431CF2B7F343B00425F20 /* searchPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchPlace.swift; sourceTree = "<group>"; };
+		A54431D12B7F557D00425F20 /* DriverDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverDetailsView.swift; sourceTree = "<group>"; };
+		A54431D32B7F68B900425F20 /* BookingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingState.swift; sourceTree = "<group>"; };
+		A54431D52B7F73AE00425F20 /* WaitingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingView.swift; sourceTree = "<group>"; };
+		A586A0F62B7E8745001036FB /* savedLocations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savedLocations.swift; sourceTree = "<group>"; };
+		A586ABFF2B7E08D000664592 /* RideRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideRequestView.swift; sourceTree = "<group>"; };
+		A586AC012B7E37B000664592 /* RideType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideType.swift; sourceTree = "<group>"; };
+		A5ABBC2E2B7C884A005C33C3 /* Uber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5ABBC312B7C884A005C33C3 /* UberApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberApp.swift; sourceTree = "<group>"; };
+		A5ABBC332B7C884A005C33C3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A5ABBC352B7C884C005C33C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5ABBC382B7C884C005C33C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5ABBC422B7C8E69005C33C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Uber/Info.plist; sourceTree = SOURCE_ROOT; };
+		A5ABBC4A2B7C94CB005C33C3 /* UberMove-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UberMove-Bold.ttf"; sourceTree = "<group>"; };
+		A5ABBC4C2B7C94DD005C33C3 /* UberMove-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UberMove-Light.ttf"; sourceTree = "<group>"; };
+		A5ABBC4E2B7C94F0005C33C3 /* UberMove-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UberMove-Medium.ttf"; sourceTree = "<group>"; };
+		A5ABBC502B7C9504005C33C3 /* UberMove-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UberMove-Regular.ttf"; sourceTree = "<group>"; };
+		A5ABBC522B7CB52A005C33C3 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		A5ABBC562B7CCF1D005C33C3 /* ServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
+		A5ABBC582B7CD41A005C33C3 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		A5ABBC5A2B7CE0C6005C33C3 /* LocationInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInputView.swift; sourceTree = "<group>"; };
+		A5ABBC5C2B7CE155005C33C3 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		A5ABBC5E2B7CEB10005C33C3 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		A5ABBC6F2B7D2BB9005C33C3 /* LocationSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchViewModel.swift; sourceTree = "<group>"; };
+		A5ABBC722B7D33EB005C33C3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5ABBC2B2B7C884A005C33C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5ABBC252B7C884A005C33C3 = {
+			isa = PBXGroup;
+			children = (
+				A5ABBC302B7C884A005C33C3 /* Uber */,
+				A5ABBC2F2B7C884A005C33C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5ABBC2F2B7C884A005C33C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5ABBC2E2B7C884A005C33C3 /* Uber.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5ABBC302B7C884A005C33C3 /* Uber */ = {
+			isa = PBXGroup;
+			children = (
+				A5ABBC642B7D294A005C33C3 /* App */,
+				A5ABBC632B7D2947005C33C3 /* Core */,
+				A5ABBC622B7D2945005C33C3 /* Extension */,
+				A5ABBC612B7D2943005C33C3 /* Model */,
+				A5ABBC602B7D293F005C33C3 /* Service */,
+				A5ABBC352B7C884C005C33C3 /* Assets.xcassets */,
+				A5ABBC422B7C8E69005C33C3 /* Info.plist */,
+				A5ABBC3F2B7C8C68005C33C3 /* Fonts */,
+				A5ABBC372B7C884C005C33C3 /* Preview Content */,
+			);
+			path = Uber;
+			sourceTree = "<group>";
+		};
+		A5ABBC372B7C884C005C33C3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A5ABBC382B7C884C005C33C3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A5ABBC3F2B7C8C68005C33C3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A5ABBC4A2B7C94CB005C33C3 /* UberMove-Bold.ttf */,
+				A5ABBC4C2B7C94DD005C33C3 /* UberMove-Light.ttf */,
+				A5ABBC4E2B7C94F0005C33C3 /* UberMove-Medium.ttf */,
+				A5ABBC502B7C9504005C33C3 /* UberMove-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A5ABBC602B7D293F005C33C3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A5ABBC612B7D2943005C33C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A514CD372B7DEB4300224B79 /* TextFieldState.swift */,
+				A586AC012B7E37B000664592 /* RideType.swift */,
+				A586A0F62B7E8745001036FB /* savedLocations.swift */,
+				A54431CF2B7F343B00425F20 /* searchPlace.swift */,
+				A54431D32B7F68B900425F20 /* BookingState.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A5ABBC622B7D2945005C33C3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A5ABBC632B7D2947005C33C3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A5ABBC6B2B7D2A6F005C33C3 /* TabView */,
+				A5ABBC6A2B7D2A48005C33C3 /* Components */,
+				A5ABBC692B7D29F7005C33C3 /* Activity */,
+				A5ABBC682B7D29B0005C33C3 /* Account */,
+				A5ABBC672B7D29A9005C33C3 /* Ride */,
+				A5ABBC662B7D299D005C33C3 /* Services */,
+				A5ABBC652B7D2982005C33C3 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A5ABBC642B7D294A005C33C3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A5ABBC312B7C884A005C33C3 /* UberApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A5ABBC652B7D2982005C33C3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A5ABBC332B7C884A005C33C3 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A5ABBC662B7D299D005C33C3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A5ABBC562B7CCF1D005C33C3 /* ServicesView.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A5ABBC672B7D29A9005C33C3 /* Ride */ = {
+			isa = PBXGroup;
+			children = (
+				A5ABBC6D2B7D2B7C005C33C3 /* View */,
+				A5ABBC6C2B7D2B73005C33C3 /* ViewModel */,
+			);
+			path = Ride;
+			sourceTree = "<group>";
+		};
+		A5ABBC682B7D29B0005C33C3 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				A5ABBC5E2B7CEB10005C33C3 /* AccountView.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		A5ABBC692B7D29F7005C33C3 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				A5ABBC5C2B7CE155005C33C3 /* ActivityView.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		A5ABBC6A2B7D2A48005C33C3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A5ABBC582B7CD41A005C33C3 /* Cards.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A5ABBC6B2B7D2A6F005C33C3 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				A5ABBC522B7CB52A005C33C3 /* MainTabBar.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		A5ABBC6C2B7D2B73005C33C3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A5ABBC6F2B7D2BB9005C33C3 /* LocationSearchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A5ABBC6D2B7D2B7C005C33C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5ABBC722B7D33EB005C33C3 /* MapView.swift */,
+				A5ABBC5A2B7CE0C6005C33C3 /* LocationInputView.swift */,
+				A586ABFF2B7E08D000664592 /* RideRequestView.swift */,
+				A54431D12B7F557D00425F20 /* DriverDetailsView.swift */,
+				A54431D52B7F73AE00425F20 /* WaitingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5ABBC2D2B7C884A005C33C3 /* Uber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5ABBC3C2B7C884C005C33C3 /* Build configuration list for PBXNativeTarget "Uber" */;
+			buildPhases = (
+				A5ABBC2A2B7C884A005C33C3 /* Sources */,
+				A5ABBC2B2B7C884A005C33C3 /* Frameworks */,
+				A5ABBC2C2B7C884A005C33C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Uber;
+			productName = Uber;
+			productReference = A5ABBC2E2B7C884A005C33C3 /* Uber.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5ABBC262B7C884A005C33C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					A5ABBC2D2B7C884A005C33C3 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = A5ABBC292B7C884A005C33C3 /* Build configuration list for PBXProject "Uber" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5ABBC252B7C884A005C33C3;
+			productRefGroup = A5ABBC2F2B7C884A005C33C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5ABBC2D2B7C884A005C33C3 /* Uber */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5ABBC2C2B7C884A005C33C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5ABBC4D2B7C94DD005C33C3 /* UberMove-Light.ttf in Resources */,
+				A5ABBC392B7C884C005C33C3 /* Preview Assets.xcassets in Resources */,
+				A5ABBC4F2B7C94F0005C33C3 /* UberMove-Medium.ttf in Resources */,
+				A5ABBC362B7C884C005C33C3 /* Assets.xcassets in Resources */,
+				A5ABBC512B7C9504005C33C3 /* UberMove-Regular.ttf in Resources */,
+				A5ABBC4B2B7C94CB005C33C3 /* UberMove-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5ABBC2A2B7C884A005C33C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5ABBC702B7D2BB9005C33C3 /* LocationSearchViewModel.swift in Sources */,
+				A586AC022B7E37B000664592 /* RideType.swift in Sources */,
+				A54431D62B7F73AE00425F20 /* WaitingView.swift in Sources */,
+				A5ABBC5B2B7CE0C6005C33C3 /* LocationInputView.swift in Sources */,
+				A5ABBC592B7CD41A005C33C3 /* Cards.swift in Sources */,
+				A5ABBC572B7CCF1D005C33C3 /* ServicesView.swift in Sources */,
+				A5ABBC342B7C884A005C33C3 /* HomeView.swift in Sources */,
+				A514CD382B7DEB4300224B79 /* TextFieldState.swift in Sources */,
+				A586A0F72B7E8745001036FB /* savedLocations.swift in Sources */,
+				A5ABBC5F2B7CEB10005C33C3 /* AccountView.swift in Sources */,
+				A54431D02B7F343B00425F20 /* searchPlace.swift in Sources */,
+				A54431D42B7F68B900425F20 /* BookingState.swift in Sources */,
+				A5ABBC5D2B7CE155005C33C3 /* ActivityView.swift in Sources */,
+				A586AC002B7E08D000664592 /* RideRequestView.swift in Sources */,
+				A5ABBC732B7D33EB005C33C3 /* MapView.swift in Sources */,
+				A5ABBC532B7CB52A005C33C3 /* MainTabBar.swift in Sources */,
+				A5ABBC322B7C884A005C33C3 /* UberApp.swift in Sources */,
+				A54431D22B7F557D00425F20 /* DriverDetailsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A5ABBC3A2B7C884C005C33C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5ABBC3B2B7C884C005C33C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5ABBC3D2B7C884C005C33C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Uber/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Uber/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ashwin.Uber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5ABBC3E2B7C884C005C33C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Uber/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Uber/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ashwin.Uber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5ABBC292B7C884A005C33C3 /* Build configuration list for PBXProject "Uber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5ABBC3A2B7C884C005C33C3 /* Debug */,
+				A5ABBC3B2B7C884C005C33C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5ABBC3C2B7C884C005C33C3 /* Build configuration list for PBXNativeTarget "Uber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5ABBC3D2B7C884C005C33C3 /* Debug */,
+				A5ABBC3E2B7C884C005C33C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5ABBC262B7C884A005C33C3 /* Project object */;
+}
