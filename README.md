@@ -4,7 +4,6 @@ This project is an Uber UI clone, showcasing a user interface similar to the pop
 
 
 
-<img src="https://github.com/ashwin-kumar-k/Uber-UI-Clone/assets/44889005/1dba3e00-f107-45f0-b0d7-9678360cd610" width="300">
 <img src="https://github.com/ashwin-kumar-k/Uber-UI-Clone/assets/44889005/0df270ab-4886-4f8d-b5eb-ad49a5d0808e" width="300">
 <img src="https://github.com/ashwin-kumar-k/Uber-UI-Clone/assets/44889005/514c75f1-d9f3-4070-89f5-c9750797faed" width="300">
 <img src="https://github.com/ashwin-kumar-k/Uber-UI-Clone/assets/44889005/84f15c2d-9f63-4eb6-9788-b3327f406dfa" width="300">
